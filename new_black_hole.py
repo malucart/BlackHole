@@ -17,7 +17,7 @@ screen = pygame.display.set_mode((320,240))
 running = 1
 
 #radius standard
-radius = 55
+radius = 70
 
 #speed to create new circle
 moveSpeed = 0.15
@@ -63,12 +63,13 @@ def array(num):
     return arr
 
 #create how many circles have, in this case, between 50 and 70
-dotQuantity = array(random.randrange(50,70))
+dotQuantity = array(random.randrange(50))
 
 #while program doesn't stop
 while running:
     #gets a single event from the queue and it's going to appear in the terminal
     event =  pygame.event.poll()
+    #if the user clicks 'x' on pygame screen
     if event.type == pygame.QUIT:
         running = 0
 
