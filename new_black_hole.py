@@ -2,9 +2,7 @@
     It's a black hole!!
 '''
 
-'''
-libraries
-'''
+#libraries
 from math import *
 import pygame
 import random
