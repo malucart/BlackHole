@@ -7,7 +7,6 @@ from math import *
 import pygame
 import random
 
-
 #display size || width: 320, height: 240
 screen = pygame.display.set_mode((320,240))
 
