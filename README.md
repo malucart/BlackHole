@@ -1,2 +1,2 @@
 # BlackHole
-fictional black holee
+black hole simulation
